@@ -1,7 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .post {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .post h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .post p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <p>Your daily dose of awesome content</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="post">
+            <h2>Post Title 1</h2>
+            <p>Posted on August 18, 2024 by Admin</p>
+            <img src="https://via.placeholder.com/800x400" alt="Post Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Praesent
+                ac
+                gravida
+                libero. Nulla quis metus et lorem scelerisque interdum.</p>
+            <a href="#">Read more</a>
+        </div>
+
+        <div class="post">
+            <h2>Post Title 2</h2>
+            <p>Posted on August 15, 2024 by Admin</p>
+            <img src="https://via.placeholder.com/800x400" alt="Post Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Praesent
+                ac
+                gravida
+                libero. Nulla quis metus et lorem scelerisque interdum.</p>
+            <a href="#">Read more</a>
+        </div>
+
+        <div class="post">
+            <h2>Post Title 3</h2>
+            <p>Posted on August 12, 2024 by Admin</p>
+            <img src="https://via.placeholder.com/800x400" alt="Post Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Praesent
+                ac
+                gravida
+                libero. Nulla quis metus et lorem scelerisque interdum.</p>
+            <a href="#">Read more</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
